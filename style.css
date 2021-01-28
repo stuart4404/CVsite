@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    color : white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    background-color: rgb(139, 236, 27);
+    color:rgb(2, 14, 2);
+    font-size: 32px;
+
+}
+
+.nav ul {
+
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 0px;
+}
+
+.nav ul li {
+    padding: 16px;
+    text-align: center;
+    font-size: 1.8rem;
+    border-bottom: 2px solid rgb(36, 117, 3);
+    transition: background-color 1s;
+}
+
+.nav ul li:hover {
+    background-color: rgb(236, 235, 222);
+    color: black
+}
+
+.image-area {
+    background-image:url("images/IMG_0168-720x503.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.centered-container {
+    max-width: 1020px;
+    margin: 0px auto;
+    padding: 0px 16px;
+}
+
+.image-text {
+    text-align: center;
+    background-color: rgb(26, 5, 5);
+    color:rgb(229, 231, 224);
+    font-size: 20;
+
+}
+    
+
+.intro-text {
+    background-color: rgb(139, 236, 27);
+    color: rgb(32, 5, 5);
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.single-service {
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 32px;
+
+}
+
+.single-service p {
+    padding: 0px 16px;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 700px){
+    .nav ul {
+        text-align: right;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid rgb(19, 20, 19);
+
+    }
+
+    .single-service {
+        width: 50%;
+        float: left;
+    }
+}   
