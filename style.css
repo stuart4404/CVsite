@@ -70,14 +70,17 @@ body{
 }
 
 .single-service {
-    height 100px;
-    width 100px;
     object-fit: cover;
     text-align: center;
     margin-bottom: 32px;
     margin-top: 32px;
     color:rgb(236, 235, 222);
 
+}
+
+.certs {
+    max-width: 10px;
+    max-height: 10px%
 }
 
 .single-service p {
