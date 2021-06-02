@@ -79,8 +79,9 @@ body{
 }
 
 .certs {
-    max-width: 10px;
-    max-height: 10px%
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue
 }
 
 .single-service p {
