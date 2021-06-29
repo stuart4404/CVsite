@@ -113,12 +113,18 @@ body{
         border-bottom: 0px;
         border-left: 1px solid rgb(19, 20, 19);
         border-right: 1px solid rgb(19, 20, 19);
+        width:100%;
 
     }
 
     .single-service {
         width: 50%;
         float: left;
+    }
+
+    .image-area {
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }  
 
