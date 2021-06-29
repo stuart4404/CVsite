@@ -1,5 +1,23 @@
     * { margin: 0;}
 
+#page-container {
+    position: relative;
+    min-height: 1500px;
+
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#footbar {
+
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
 
 body{
     background-color: black;
@@ -39,7 +57,7 @@ body{
 }
 
 .image-area {
-    background-image:url("Images/IMG_0168-720x503.jpg");
+    background-image:url("images/IMG_0168-720x503.jpg");
     background-position: center center;
     background-size: cover;
     padding-top: 200px;
@@ -82,16 +100,6 @@ body{
     color:aquamarine;
 }
 
-.footbar {
-    
-    background-color: rgb(139, 236, 27);
-    color: rgb(32, 5, 5);
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    float: left;
-    
-}
 
 
 
