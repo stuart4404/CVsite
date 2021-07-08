@@ -63,6 +63,7 @@ body{
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
+    width: 100%;
 }
 .centered-container {
     max-width: 1020px;
@@ -88,6 +89,11 @@ body{
     padding-top: 30px;
 }
 
+.intro-text:hover {
+    background-color: black;
+    color:rgb(255, 255, 255);
+}
+
 .single-service {
     text-align: center;
     margin-bottom: 32px;
@@ -105,6 +111,22 @@ height:100%;
     padding: 0px 16px;
     margin-top: 30px;
     color:aquamarine;
+}
+
+#button{
+    width: 300px;
+    height: 50px;
+    border-width: 4px;
+    border-radius: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    color: cyan ;
+    cursor: pointer;
+}
+
+#button :active{
+    font-size: 23px;
+    
 }
 
 
