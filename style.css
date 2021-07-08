@@ -151,6 +151,14 @@ height:100%;
         float: left;
     }
 }
+
+.image-area {
+    background-image:url("images/IMG_0168-720x503.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
       
 
 
