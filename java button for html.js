@@ -6,6 +6,15 @@ var output = document.getElementById("output");
 function displayOutput(){
     const text = input.value;
     output.innerHTML = text;
-}
+};
+
+function bottom() {
+    document.getElementById('footbar');
+
+};
+
+
 
 button.addEventListener("click",displayOutput);
+
+
