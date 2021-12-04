@@ -150,7 +150,7 @@ img{
 
 .textstrip {  
     margin: 0 auto;
-    padding: 2em;
+    padding: 2em 0.5em;
     width: 100%;
     color:rgb(19, 22, 12);
     font-family: Georgia, 'Times New Roman', Times, serif;
